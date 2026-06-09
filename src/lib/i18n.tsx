@@ -13,7 +13,7 @@ const translations: Record<Lang, Dict> = {
     "nav.contact": "Contact",
     "hero.kicker": "Crestay Group · Germany",
     "hero.title": "Building Digital Ventures for the Future",
-    "hero.sub":  "Building and scaling digital ventures with a long-term vision.",
+    "hero.sub":  "Building, acquiring, and scaling digital ventures across technology, media, and AI.",
     "hero.cta1": "Explore Ventures",
     "hero.cta2": "Contact Us",
     "hero.tags1": "Germany Based",
@@ -23,7 +23,7 @@ const translations: Record<Lang, Dict> = {
 
     "about.kicker": "About Crestay Group",
     "about.title": "Building, acquiring, and growing digital ventures with long-term value.",
-    "about.body": "Crestay Group builds and grows digital ventures across technology, media, and AI with a long-term investment mindset.",
+    "about.body": "Crestay Group builds, acquires, and scales digital ventures across technology, media, and AI, focusing on sustainable growth and long-term value creation.",
     "about.stat.media": "MEDIA",
     "about.stat.technology": "TECHNOLOGY",
     "about.stat.ai": "AI",
@@ -43,7 +43,7 @@ const translations: Record<Lang, Dict> = {
     "v.excellence.t": "Excellence",
     "v.excellence.b": "We strive for exceptional quality in every product, process, and venture.",
     "v.longterm.t": "Long-Term Thinking",
-    "v.longterm.b": "We build with patience, focusing on enduring value rather than short-term gains..",
+    "v.longterm.b": "We build with patience, focusing on enduring value rather than short-term gains.",
     "v.sustain.t": "Sustainability",
     "v.sustain.b": "We pursue responsible growth that benefits people, businesses, and society.",
 
@@ -68,16 +68,16 @@ const translations: Record<Lang, Dict> = {
     "ven.s.auto": "Business Automation",
     "ven.s.ai": "AI Solutions",
     "ven.upcoming.t": "M.H",
-    "ven.upcoming.b": "A new digital platform currently under development.",
+    "ven.upcoming.b": "An upcoming digital platform focused on innovation, automation, and scalable digital experiences.",
 
 
 
     "strat.kicker": "Growth Strategy",
     "strat.title": "A roadmap built for compounding growth.",
-    "strat.2026": "Foundation & Digital Products",
-    "strat.2027": "Expansion of Ventures",
-    "strat.2028": "AI & Media Ventures",
-    "strat.future": "Technology & Innovation Investments",
+    "strat.2026": "Strategic Expansion",
+    "strat.2027": "Future Ventures",
+    "strat.2028": "Innovation & Growth",
+    "strat.future": "Long-Term Vision",
 
 
     "why.kicker": "Why Crestay Group",
@@ -183,7 +183,7 @@ const translations: Record<Lang, Dict> = {
     "nav.contact": "Kontakt",
     "hero.kicker": "Crestay Group · Deutschland",
     "hero.title": "Wir bauen digitale Unternehmen der Zukunft.",
-    "hero.sub": "Aufbau und Skalierung digitaler Unternehmungen mit einer langfristigen Vision.",
+    "hero.sub": "Aufbau, Entwicklung und Wachstum digitaler Unternehmen in den Bereichen Technologie, Medien und Künstliche Intelligenz.",
     "hero.cta1": "Beteiligungen entdecken",
     "hero.cta2": "Kontakt aufnehmen",
     "hero.tags1": "Standort Deutschland",
@@ -194,7 +194,7 @@ const translations: Record<Lang, Dict> = {
 
     "about.kicker": "Über Crestay Group",
     "about.title": "Wir bauen, entwickeln und skalieren digitale Unternehmen mit langfristigem Wert.",
-    "about.body": "Die Crestay Group entwickelt und erweitert digitale Unternehmen in den Bereichen Technologie, Medien und KI mit einer langfristigen Investitionsstrategie.",
+    "about.body": "Die Crestay Group baut digitale Unternehmen in den Bereichen Technologie, Medien und Künstliche Intelligenz auf, entwickelt sie weiter und skaliert sie mit Fokus auf nachhaltiges Wachstum und langfristige Wertschöpfung.",
    "about.stat.media": "Medien",
     "about.stat.technology": "Technologie",
     "about.stat.ai": "Künstliche Intelligenz",
@@ -236,15 +236,14 @@ const translations: Record<Lang, Dict> = {
     "ven.s.auto": "Geschäftsautomatisierung",
     "ven.s.ai": "KI-Integration",
     "ven.upcoming.t": " M.H ",
-    "ven.upcoming.b": "Eine neue digitale Plattform, die sich derzeit in Entwicklung befindet.",
-
+    "ven.upcoming.b": "Eine neue digitale Plattform in Entwicklung mit Fokus auf Innovation, Automatisierung und skalierbare digitale Lösungen.",
 
     "strat.kicker": "Wachstumsstrategie",
     "strat.title": "Eine Roadmap für nachhaltiges Wachstum.",
-    "strat.2026": "Gründung & Digitale Produkte",
-    "strat.2027": "Ausbau der Beteiligungen",
-    "strat.2028": "KI- & Medienprojekte",
-    "strat.future": "Technologie- & Innovationsinvestitionen",
+    "strat.2026": "Strategische Expansion",
+    "strat.2027": "Neue Ventures",
+    "strat.2028": "Innovation & Wachstum",
+    "strat.future": "Langfristige Vision",
 
 
 
@@ -355,7 +354,7 @@ const translations: Record<Lang, Dict> = {
     "nav.contact": "تواصل",
     "hero.kicker": "مجموعة كريستاي · ألمانيا",
     "hero.title": "نبني مشاريع رقمية لمستقبل أفضل",
-    "hero.sub": "بناء المشاريع الرقمية وتوسيع نطاقها برؤية طويلة الأمد",
+    "hero.sub": "بناء وتطوير وتوسيع المشاريع الرقمية في مجالات التكنولوجيا والإعلام والذكاء الاصطناعي ",
     "hero.cta1": "استكشف المشاريع",
     "hero.cta2": "تواصل معنا",
     "hero.tags1": "مقرها ألمانيا",
@@ -365,7 +364,7 @@ const translations: Record<Lang, Dict> = {
 
     "about.kicker": "عن مجموعة كريستاي",
     "about.title": "مجموعة رقمية تستثمر في التقنية والإعلام والذكاء الاصطناعي لبناء قيمة مستدامة على المدى الطويل.",
-    "about.body": "تركّز مجموعة كريستاي على إنشاء وتطوير وتوسيع الأعمال الرقمية. نستثمر في الأفكار والتقنية والنمو المستدام.",
+    "about.body":  "تقوم مجموعة كريستاي ببناء وتطوير وتوسيع المشاريع الرقمية في مجالات التقنية والإعلام والذكاء الاصطناعي، مع التركيز على النمو المستدام وخلق قيمة طويلة الأمد.",
     "about.stat.media": "الإعلام",
     "about.stat.technology": "التقنية",
     "about.stat.ai": "الذكاء الاصطناعي",
@@ -406,15 +405,15 @@ const translations: Record<Lang, Dict> = {
     "ven.s.auto": "أتمتة الأعمال",
     "ven.s.ai": "دمج الذكاء الاصطناعي",
     "ven.upcoming.t ": "قريباً",
-    "ven.upcoming.b": "منصة رقمية جديدة قيد التطوير حالياً.",
+    "ven.upcoming.b": "منصة رقمية جديدة قيد التطوير، تركز على الابتكار والأتمتة وتجارب رقمية قابلة للتوسع.",
 
 
     "strat.kicker": "استراتيجية النمو",
     "strat.title": "خارطة طريق لنموّ مركّب.",
-   "strat.2026": "التأسيس والمنتجات الرقمية",
-    "strat.2027": "التوسع في المشاريع",
-    "strat.2028": "مشاريع الذكاء الاصطناعي والإعلام",
-    "strat.future": "استثمارات التقنية والابتكار",
+    "strat.2026": "التوسع الاستراتيجي",
+    "strat.2027": "مشاريع جديدة",
+    "strat.2028": "الابتكار والنمو",
+    "strat.future": "رؤية طويلة الأمد",
 
 
     "why.kicker": "لماذا كريستاي",
