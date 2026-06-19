@@ -580,8 +580,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-[var(--gold)]" />
-                <a href="mailto:office@crestaygroup.com" className="hover:text-[var(--gold)]">
-                  office@crestaygroup.com
+                <a href="mailto:office@crestay.com" className="hover:text-[var(--gold)]">
+                  office@crestay.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -595,7 +595,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-white/5 pt-6 text-center text-xs text-white/50">
-          © {(2025)} Crestay Group. All rights reserved. 
+          © {(2026)} Crestay Group. All rights reserved. 
         </div>
       </div>
 
