@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-
+import CookieBanner from "./components/site/CookieBanner";
 import { Nav } from "./components/site/Nav";
 import {
   Hero,
@@ -63,6 +63,7 @@ export default function App() {
           element={<LegalPage type="imprint" />}
         />
       </Routes>
+      <CookieBanner />
     </>
   );
 }
