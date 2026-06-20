@@ -24,6 +24,11 @@ export default function CookieBanner() {
     setVisible(false);
   };
 
+  const declineCookies = () => {
+    localStorage.setItem("cookie-consent", "declined");
+    setVisible(false);
+  };
+
   if (!visible) return null;
 
   return (
@@ -42,18 +47,34 @@ export default function CookieBanner() {
     >
       <p>{t("cookie.text")}</p>
 
-      <button
-        onClick={acceptCookies}
-        style={{
-          background: "#c9a66b",
-          border: "none",
-          padding: "10px 20px",
-          borderRadius: "8px",
-          cursor: "pointer",
-        }}
-      >
-        {t("cookie.accept")}
-      </button>
+      <div style={{ display: "flex", gap: "10px", marginTop: "12px" }}>
+        <button
+          onClick={acceptCookies}
+          style={{
+            background: "#c9a66b",
+            border: "none",
+            padding: "10px 20px",
+            borderRadius: "8px",
+            cursor: "pointer",
+          }}
+        >
+          {t("cookie.accept")}
+        </button>
+
+        <button
+          onClick={declineCookies}
+          style={{
+            background: "transparent",
+            color: "#fff",
+            border: "1px solid #555",
+            padding: "10px 20px",
+            borderRadius: "8px",
+            cursor: "pointer",
+          }}
+        >
+          {t("cookie.decline")}
+        </button>
+      </div>
     </div>
   );
 }

@@ -129,15 +129,15 @@ const translations: Record<Lang, Dict> = {
     "privacy.s2.t": "2. Contact Forms",
     "privacy.s2.b": "Information submitted through our contact form (name, email address, company or organization, and message content) is processed solely for the purpose of responding to inquiries and providing requested information. Form submissions are handled through Web3Forms. Personal data is not sold or shared with third parties for marketing purposes.",
 
-    "privacy.s3.t": "3. Cookies",
-    "privacy.s3.b": "This website does not intentionally use non-essential cookies for advertising or marketing purposes. Essential technical cookies may be used where necessary for website functionality.",
+    "privacy.s3.t": "3. Cookies and Analytics",
+    "privacy.s3.b": " This website uses cookies and Google Analytics to measure website traffic and improve user experience, Google Analytics is activated only after the user has provided consent through the cookie banner. Cookies may store information such as browser preferences and anonymous usage statistics.Users may decline analytics cookies or withdraw consent at any time by clearing their browser cookies.",
 
     "privacy.s4.t": "4. Data Processing and Storage",
     "privacy.s4.b": "Personal data is processed only for legitimate business communication purposes and is retained only for as long as necessary to respond to inquiries or comply with applicable legal obligations. Appropriate technical and organizational measures are implemented to protect personal information.",
 
     "privacy.s5.t": "5. Third-Party Services",
-    "privacy.s5.b": "We use Web3Forms to process contact form submissions. By submitting information through the contact form, you acknowledge that your data may be processed by this service solely for the purpose of delivering your inquiry to us.",
-
+    "privacy.s5.b": "This website uses selected third-party services to operate its functionality and improve user experience. We use Web3Forms to process contact form submissions and Google Analytics (Google Ireland Limited) to analyze website traffic and usage patterns. Google Analytics is activated only after the user has provided consent through the cookie banner. Data collected may include browser information, device information, pages visited, and anonymous usage statistics. Personal data is never sold to third parties and is processed only for the purposes described in this Privacy Policy.",
+      
     "privacy.s6.t": "6. Your Rights",
     "privacy.s6.b": "Under the GDPR, you have the right to request access to your personal data, request correction or deletion of inaccurate data, restrict processing, object to processing, and request data portability where applicable.",
 
@@ -303,14 +303,14 @@ const translations: Record<Lang, Dict> = {
     "privacy.s2.t": "2. Kontaktformulare",
     "privacy.s2.b": "Die über unser Kontaktformular übermittelten Informationen (Name, E-Mail-Adresse, Unternehmen oder Organisation sowie Nachrichteninhalt) werden ausschließlich zum Zweck der Bearbeitung Ihrer Anfrage verarbeitet. Die Übermittlung der Formulardaten erfolgt über den Dienst Web3Forms. Personenbezogene Daten werden nicht zu Marketingzwecken verkauft oder an Dritte weitergegeben.",
 
-    "privacy.s3.t": "3. Cookies",
-    "privacy.s3.b": "Diese Website verwendet grundsätzlich keine nicht erforderlichen Cookies für Werbe- oder Marketingzwecke. Technisch notwendige Cookies können eingesetzt werden, soweit dies für die Funktionalität der Website erforderlich ist.",
+    "privacy.s3.t": "3. Cookies und Analytics",
+    "privacy.s3.b": "Diese Website verwendet Cookies und Google Analytics, um den Website-Traffic zu messen und die Nutzererfahrung zu verbessern. Google Analytics wird erst aktiviert, nachdem der Nutzer seine Einwilligung über das Cookie-Banner erteilt hat. Cookies können Informationen wie Browsereinstellungen und anonyme Nutzungsstatistiken speichern. Nutzer können Analyse-Cookies ablehnen oder ihre Einwilligung jederzeit widerrufen, indem sie die Cookies in ihrem Browser löschen.",
 
     "privacy.s4.t": "4. Datenverarbeitung und Speicherung",
     "privacy.s4.b": "Personenbezogene Daten werden ausschließlich für legitime geschäftliche Kommunikationszwecke verarbeitet und nur so lange gespeichert, wie dies zur Bearbeitung Ihrer Anfrage oder zur Erfüllung gesetzlicher Aufbewahrungspflichten erforderlich ist. Geeignete technische und organisatorische Maßnahmen schützen Ihre Daten vor unbefugtem Zugriff.",
 
-    "privacy.s5.t": "5. Dienste Dritter",
-    "privacy.s5.b": "Für die Verarbeitung von Kontaktformularen nutzen wir den Dienst Web3Forms. Mit dem Absenden einer Anfrage erklären Sie sich damit einverstanden, dass die eingegebenen Daten zum Zweck der Zustellung Ihrer Nachricht an uns über diesen Dienst verarbeitet werden.",
+    "privacy.s5.t": "5. Dienste von Drittanbietern",
+    "privacy.s5.b": "Diese Website nutzt ausgewählte Dienste von Drittanbietern, um ihre Funktionen bereitzustellen und die Benutzererfahrung zu verbessern. Wir verwenden Web3Forms zur Verarbeitung von Kontaktformularanfragen sowie Google Analytics (Google Ireland Limited) zur Analyse von Website-Besuchen und Nutzungsmustern. Google Analytics wird erst nach ausdrücklicher Zustimmung des Nutzers über das Cookie-Banner aktiviert. Die erfassten Daten können Browserinformationen, Geräteinformationen, besuchte Seiten und anonyme Nutzungsstatistiken umfassen. Personenbezogene Daten werden niemals an Dritte verkauft und ausschließlich für die in dieser Datenschutzerklärung beschriebenen Zwecke verarbeitet.",
 
     "privacy.s6.t": "6. Ihre Rechte",
     "privacy.s6.b": "Gemäß DSGVO haben Sie das Recht auf Auskunft über Ihre gespeicherten personenbezogenen Daten, auf Berichtigung unrichtiger Daten, auf Löschung, auf Einschränkung der Verarbeitung, auf Datenübertragbarkeit sowie auf Widerspruch gegen die Verarbeitung Ihrer Daten, soweit die gesetzlichen Voraussetzungen erfüllt sind.",
@@ -479,14 +479,14 @@ const translations: Record<Lang, Dict> = {
     "privacy.s2.t": "2. نماذج الاتصال",
     "privacy.s2.b": "تتم معالجة المعلومات المرسلة عبر نموذج الاتصال، بما في ذلك الاسم والبريد الإلكتروني واسم الشركة أو المؤسسة ومحتوى الرسالة، حصراً لغرض الرد على استفساراتك. يتم إرسال بيانات النموذج عبر خدمة Web3Forms. لا يتم بيع البيانات الشخصية أو مشاركتها مع أطراف ثالثة لأغراض تسويقية.",
 
-    "privacy.s3.t": "3. ملفات تعريف الارتباط (Cookies)",
-    "privacy.s3.b": "لا يستخدم هذا الموقع ملفات تعريف ارتباط غير ضرورية لأغراض إعلانية أو تسويقية. قد يتم استخدام ملفات تعريف ارتباط تقنية ضرورية فقط لضمان التشغيل السليم للموقع ووظائفه الأساسية.",
+    "privacy.s3.t": "3. ملفات تعريف الارتباط والتحليلات",
+    "privacy.s3.b": "يستخدم هذا الموقع ملفات تعريف الارتباط (الكوكيز) وخدمة Google Analytics ل لقياس حركة الزوار وتحسين تجربة المستخدم؛ حيث يتم تفعيل Google Analytics فقط بعد حصول الموقع على موافقة المستخدم عبر شريط الموافقة على ملفات تعريف الارتباط. وقد تقوم هذه الملفات بتخزين معلومات مثل تفضيلات المتصفح وإحصاءات الاستخدام المجهولة. ويمكن للمستخدمين رفض ملفات تعريف الارتباط الخاصة بالتحليلات أو سحب موافقتهم في أي وقت عن طريق مسح ملفات تعريف الارتباط من المتصفح.",
 
     "privacy.s4.t": "4. معالجة البيانات وتخزينها",
     "privacy.s4.b": "تتم معالجة البيانات الشخصية فقط لأغراض التواصل التجاري المشروعة، ويتم الاحتفاظ بها للفترة اللازمة لمعالجة طلبك أو للامتثال للمتطلبات القانونية. ويتم اتخاذ التدابير التقنية والتنظيمية المناسبة لحماية البيانات من الوصول غير المصرح به.",
 
     "privacy.s5.t": "5. خدمات الجهات الخارجية",
-    "privacy.s5.b": "نستخدم خدمة Web3Forms لمعالجة وإرسال رسائل نماذج الاتصال. وبإرسال النموذج فإنك توافق على معالجة البيانات المدخلة لغرض إيصال رسالتك إلينا عبر هذه الخدمة.",
+    "privacy.s5.b": "يستخدم هذا الموقع بعض خدمات الجهات الخارجية لتشغيل وظائفه وتحسين تجربة المستخدم. نستخدم Web3Forms لمعالجة طلبات نماذج التواصل، كما نستخدم Google Analytics (Google Ireland Limited) لتحليل زيارات الموقع وأنماط الاستخدام. لا يتم تفعيل Google Analytics إلا بعد موافقة المستخدم من خلال إشعار ملفات تعريف الارتباط (الكوكيز). قد تتضمن البيانات التي يتم جمعها معلومات المتصفح، ومعلومات الجهاز، والصفحات التي تمت زيارتها، وإحصاءات استخدام مجهولة الهوية. لا يتم بيع البيانات الشخصية لأي طرف ثالث، ويتم معالجتها فقط للأغراض الموضحة في سياسة الخصوصية هذه.",
 
     "privacy.s6.t": "6. حقوقك",
     "privacy.s6.b": "وفقاً للائحة العامة لحماية البيانات (GDPR)، يحق لك طلب الوصول إلى بياناتك الشخصية، وتصحيح البيانات غير الدقيقة، وحذف البيانات، وتقييد معالجتها، ونقلها، والاعتراض على معالجتها متى توفرت الشروط القانونية لذلك.",
