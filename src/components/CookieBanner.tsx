@@ -10,10 +10,15 @@ export default function CookieBanner() {
     }
   }, []);
 
-  const acceptCookies = () => {
-    localStorage.setItem("cookie-consent", "accepted");
-    setVisible(false);
-  };
+const acceptCookies = () => {
+  localStorage.setItem("cookie-consent", "accepted");
+
+  import("../lib/anslytics").then(({ initAnalytics }) => {
+  initAnalytics();
+});
+
+  setVisible(false);
+};
 
   if (!visible) return null;
 
