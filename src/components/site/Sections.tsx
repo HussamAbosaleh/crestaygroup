@@ -425,7 +425,7 @@ export function Contact() {
             <div className="flex items-center gap-4">
               <Mail className="text-[var(--gold)]" size={20} />
               <a href="mailto:office@crestaygroup.com" className="hover:text-[var(--gold)]">
-                office@crestaygroup.com
+                office@crestay.com
               </a>
             </div>
             <div className="flex items-center gap-4">
