@@ -1,24 +1,28 @@
 import { useState, useEffect } from "react";
+import { useI18n } from "../lib/i18n";
 
 export default function CookieBanner() {
+  const { t } = useI18n();
+
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const consent = localStorage.getItem("cookie-consent");
+
     if (!consent) {
       setVisible(true);
     }
   }, []);
 
-const acceptCookies = () => {
-  localStorage.setItem("cookie-consent", "accepted");
+  const acceptCookies = () => {
+    localStorage.setItem("cookie-consent", "accepted");
 
-  import("../lib/anslytics").then(({ initAnalytics }) => {
-  initAnalytics();
-});
+    import("../lib/anslytics").then(({ initAnalytics }) => {
+      initAnalytics();
+    });
 
-  setVisible(false);
-};
+    setVisible(false);
+  };
 
   if (!visible) return null;
 
@@ -36,10 +40,7 @@ const acceptCookies = () => {
         zIndex: 9999,
       }}
     >
-      <p>
-        This website uses cookies and Google Analytics to improve user
-        experience and measure website performance.
-      </p>
+      <p>{t("cookie.text")}</p>
 
       <button
         onClick={acceptCookies}
@@ -51,7 +52,7 @@ const acceptCookies = () => {
           cursor: "pointer",
         }}
       >
-        Accept
+        {t("cookie.accept")}
       </button>
     </div>
   );

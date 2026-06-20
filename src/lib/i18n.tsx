@@ -173,8 +173,16 @@ const translations: Record<Lang, Dict> = {
     "imprint.s7.b": "All texts, images, graphics, and other content published on this website are protected by copyright law. Any reproduction, modification, distribution, or use beyond the limits permitted by copyright law requires the prior written consent of the rights holder.",
 
     "imprint.s8.t": "Notice",
-    "imprint.s8.b": "No value added tax (VAT) is charged or displayed in accordance with § 19 UStG (German Small Business Regulation)."
-  },
+    "imprint.s8.b": "No value added tax (VAT) is charged or displayed in accordance with § 19 UStG (German Small Business Regulation)." ,
+ 
+
+    "cookie.text": "This website uses cookies and Google Analytics to improve user experience and measure website performance.",
+    "cookie.accept": "Accept",
+    "cookie.decline": "Decline",
+ },
+
+
+
   de: {
     "nav.about": "Über uns",
     "nav.structure": "Struktur",
@@ -341,7 +349,14 @@ const translations: Record<Lang, Dict> = {
     "imprint.s7.b": "Die auf dieser Website veröffentlichten Inhalte, Texte, Bilder, Grafiken und sonstigen Werke unterliegen dem Urheberrecht. Jede Vervielfältigung, Bearbeitung, Verbreitung oder sonstige Nutzung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung des Rechteinhabers.",
 
     "imprint.s8.t": "Hinweis",
-    "imprint.s8.b": "Gemäß § 19 UStG wird keine Umsatzsteuer ausgewiesen." 
+    "imprint.s8.b": "Gemäß § 19 UStG wird keine Umsatzsteuer ausgewiesen." ,
+
+    "cookie.text": "Diese Website verwendet Cookies und Google Analytics, um die Nutzererfahrung zu verbessern und die Leistung der Website zu messen.",
+    "cookie.accept": "Akzeptieren",
+    "cookie.decline": "Ablehnen",
+
+
+
       },
 
 
@@ -508,7 +523,15 @@ const translations: Record<Lang, Dict> = {
     "imprint.s7.b": "جميع النصوص والصور والرسومات والمحتويات الأخرى المنشورة على هذا الموقع محمية بموجب قوانين حقوق النشر. ولا يجوز نسخها أو تعديلها أو توزيعها أو استخدامها بأي شكل خارج الحدود التي يسمح بها القانون إلا بعد الحصول على موافقة خطية مسبقة من صاحب الحقوق.",
 
     "imprint.s8.t": "ملاحظة",
-    "imprint.s8.b": "لا يتم إظهار أو احتساب ضريبة القيمة المضافة وفقاً لأحكام المادة 19 من قانون ضريبة القيمة المضافة الألماني (UStG)."
+    "imprint.s8.b": "لا يتم إظهار أو احتساب ضريبة القيمة المضافة وفقاً لأحكام المادة 19 من قانون ضريبة القيمة المضافة الألماني (UStG).",
+
+    "cookie.text": "يستخدم هذا الموقع ملفات تعريف الارتباط وGoogle Analytics لتحسين تجربة المستخدم وقياس أداء الموقع.",
+    "cookie.accept": "موافق",
+    "cookie.decline": "رفض",
+
+
+
+
       },
     };
 
